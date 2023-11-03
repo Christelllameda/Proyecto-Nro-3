@@ -1,7 +1,7 @@
 <div align="center">
 
 # **📊🗃️Proyecto Nro 3 - ETL** </div>
-![Proyecto Nro 3 - ETL]([![2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg](https://i.postimg.cc/vB7mLWxV/2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg)](https://postimg.cc/DJZF74gv))
+![Proyecto Nro 3 - ETL][![2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg](https://i.postimg.cc/vB7mLWxV/2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg)](https://postimg.cc/DJZF74gv)
 
 
 ---
