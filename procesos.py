@@ -16,9 +16,9 @@ opciones.add_argument('--incognito')
 
 def obtener_datos_obra(url):
     
-    driver = webdriver.Chrome(options = opciones)
+    driver = webdriver.Chrome(options = opciones) # inicia el driver
     
-    driver.get(url)
+    driver.get(url)  # abre ventana
     
     # Encuentra los elementos relevantes en la página
     elementos = driver.find_elements(By.CSS_SELECTOR, 
@@ -47,7 +47,7 @@ def crear_dataframe(obra, columnas):
 
 
 def obtener_latitudes(direcciones):
-    geolocator = Nominatim(user_agent="obras_vlza")
+    geolocator = Nominatim(user_agent="")
     latitudes = []
 
     for direccion in direcciones:
@@ -62,7 +62,7 @@ def obtener_latitudes(direcciones):
 
 
 def obtener_longitudes(direcciones):
-    geolocator = Nominatim(user_agent="myGeocoder")
+    geolocator = Nominatim(user_agent="obras_vlza")
     longitudes = []
 
     for direccion in direcciones:
