@@ -1,7 +1,7 @@
 <div align="center">
 
-# **🚧🏗️Proyecto Nro 3 - Obras púbñicas inconclusas en Venezuela🏗️🚧** </div>
-![Proyecto Nro 3 - ETL][![2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg](https://i.postimg.cc/vB7mLWxV/2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg)](https://postimg.cc/DJZF74gv)
+# **🚧🏗️Proyecto Nro 3 - Obras públicas inconclusas en Venezuela🏗️🚧** </div>
+[Proyecto Nro 3 - ETL][![2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg](https://i.postimg.cc/vB7mLWxV/2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg)](https://postimg.cc/DJZF74gv)
 
 
 ---
@@ -50,7 +50,7 @@ Utilizamos para crear un conjunto de datos completo y actualizado sobre estas ob
 El proyecto de Extracción, Transformación y Carga (ETL) sobre obras públicas inconclusas en Venezuela es una iniciativa crucial para abordar la problemática de las obras de infraestructura en el país. A través de la recopilación, limpieza y análisis de datos, este proyecto busca aumentar la transparencia y la toma de decisiones informadas en relación con las obras públicas inconclusas. Al hacerlo, contribuye al mejoramiento de la gestión de proyectos de infraestructura y, en última instancia, al desarrollo sostenible de Venezuela. La identificación de obras inconclusas y su análisis detallado son pasos fundamentales hacia un futuro en el que los recursos públicos se utilicen eficaz y eficientemente para el beneficio de la sociedad.
 
 ## Links & Recursos
-- (https://pandas.pydata.org/)
+- https://pandas.pydata.org/
 - (https://docs.python.org/3/library/functions.html)
 - (https://geopy.readthedocs.io/en/latest/)
 - (https://selenium-python.readthedocs.io/)
