@@ -1,6 +1,6 @@
 <div align="center">
 
-# **📊🗃️Proyecto Nro 3 - ETL** </div>
+# **🚧🏗️Proyecto Nro 3 - Obras inconclusas en Venezuela🏗️🚧** </div>
 ![Proyecto Nro 3 - ETL][![2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg](https://i.postimg.cc/vB7mLWxV/2-Metro-guarenas-Creditos-Sergio-Gonzalez-2.jpg)](https://postimg.cc/DJZF74gv)
 
 
@@ -12,7 +12,7 @@
 
 ## Contenido
 - [data](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/data)
-    - [cvs_originales](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/data/csv_originales)
+    - [](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/data/csv_originales)
     - [cvs_limpios](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/data/csv_limpios)
 - [src](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/src)
     - [jupyter](https://github.com/Christelllameda/Proyecto-Nro-2/tree/main/src/jupyter)
