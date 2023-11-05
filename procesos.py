@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from geopy.geocoders import Nominatim
 #driver configuration
 opciones=Options()
 opciones.add_experimental_option('excludeSwitches', ['enable-automation'])
@@ -41,3 +42,34 @@ def crear_dataframe(obra, columnas):
     df = df.rename(columns={'LÍNEA 2 METRO DE VALENCIA': 'Obra', '47%': 'Ejecución física', 'S/I': 'Ejecución financiera'})
     
     return df
+
+
+
+
+def obtener_latitudes(direcciones):
+    geolocator = Nominatim(user_agent="obras_vlza")
+    latitudes = []
+
+    for direccion in direcciones:
+        location = geolocator.geocode(direccion)
+        if location:
+            latitudes.append(location.latitude)
+        else:
+            latitudes.append(None)  # Otra opción es usar None para direcciones no encontradas
+
+    return latitudes
+
+
+
+def obtener_longitudes(direcciones):
+    geolocator = Nominatim(user_agent="myGeocoder")
+    longitudes = []
+
+    for direccion in direcciones:
+        location = geolocator.geocode(direccion)
+        if location:
+            longitudes.append(location.longitude)
+        else:
+            longitudes.append(None)  # Otra opción es usar None para direcciones no encontradas
+
+    return longitudes
