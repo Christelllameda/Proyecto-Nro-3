@@ -27,7 +27,7 @@ Este proyecto tiene como objetivo principal la recopilación, limpieza, transfor
     - [Obras_transporte](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Obras_transporte.ipynb)
     - [Obras_vialidad](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Obras_vialidad.ipynb)
 - [imagen](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/imagen)
-- [html] (https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/html)
+- [html](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/html)
 
 
 ## Objetivos
