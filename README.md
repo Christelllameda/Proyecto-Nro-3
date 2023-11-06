@@ -39,7 +39,7 @@ Identificar las obras públicas inconclusas en los sectores de transporte y vial
 Definir el valor total de las obras públicas inconclusas.
 
 ## Extracción y limpieza de datos
-Para el proceso de ETL nos basamos en la extracción de datos de tres fuentes distintas, en este caso fueron dos páginas webs y una Api que nos proporcionó las coordenadas de las diferentes direcciones de las obras.
+Para el proceso de ETL nos basamos en la extracción de datos de tres fuentes distintas, en este caso fueron dos páginas webs y la Api Geopy que nos proporcionó las coordenadas de las diferentes direcciones de las obras.
 
 Los métodos de extracción fueron: web scraping (selenium) donde obtuvimos todos los datos de las obras (status, dirección, el valor total de la obra, fecha de inicio, etc). Además utilizamos un cvs que contenía todos lo estados de Venezuela junto con su población y densidad.
 
