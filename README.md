@@ -41,7 +41,7 @@ Definir el valor total de las obras públicas inconclusas.
 ## Extracción y limpieza de datos
 Para el proceso de ETL nos basamos en la extracción de datos de tres fuentes distintas, en este caso fueron dos páginas webs y una Api que nos proporcionó las coordenadas de las diferentes direcciones de las obras.
 
-Los métodos de extracción fueron: web scraping (selenium) donde obtuvimos todos los datos de las obras (status, dirección, el valor total de la obra, fecha de inicio, etc). Además utilizamos una base de datos que contenía todos lo estados de Venezuela junto con su población y densidad.
+Los métodos de extracción fueron: web scraping (selenium) donde obtuvimos todos los datos de las obras (status, dirección, el valor total de la obra, fecha de inicio, etc). Además utilizamos un cvs que contenía todos lo estados de Venezuela junto con su población y densidad.
 
 Los procesos anteriores se realizaron para crear un conjunto de datos completos y actualizados sobre estas obras. Luego, se llevó a cabo una transformación de los datos para estandarizar la información y hacerla más accesible y comprensible. 
 
