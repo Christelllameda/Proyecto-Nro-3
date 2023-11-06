@@ -20,14 +20,14 @@ Este proyecto tiene como objetivo principal la recopilación, limpieza, transfor
     - [obras_transporte](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/data/obras_transporte.csv)
     - [obras_vialidad](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/data/obras_vialidad.csv)
 - [src](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/src)
-    - [procesos]
-- [jupyter](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/src/jupyter)
-        - [Base_datos]
-        - [Estados_Vzla]()
-        - [Obras_transporte]
-        - [Obras_vialidad]
+    - [procesos](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/src/procesos.py)
+- [jupyter_notebook](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/jupyter_notebook)
+        - [Base_datos](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Base_datos.ipynb)
+        - [Estados_Vzla](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Estados_Vzla.ipynb)
+        - [Obras_transporte](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Obras_transporte.ipynb)
+        - [Obras_vialidad](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/jupyter_notebook/Obras_vialidad.ipynb)
 - [imagen](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/imagen)
-- [html]
+- [html] (https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/html)
 
 
 ## Objetivos
@@ -39,13 +39,16 @@ Identificar las obras públicas inconclusas en los sectores de transporte y vial
 Definir el valor total de las obras públicas inconclusas.
 
 ## Extracción y limpieza de datos
-Para el proceso de ETL nos basamos en la extracción de datos de múltiples fuentes, a través del web scraping (selenium), base de datos pública y sitios web de transparencia. 
+Para el proceso de ETL nos basamos en la extracción de datos de tres fuentes distintas, en este caso fueron dos páginas webs y una Api que nos proporcionó las coordenadas de las diferentes direcciones de las obras.
 
-Utilizamos para crear un conjunto de datos completo y actualizado sobre estas obras. Luego, se llevó a cabo una transformación de los datos para estandarizar la información y hacerla más accesible y comprensible. 
+Los métodos de extracción fueron: web scraping (selenium) donde obtuvimos todos los datos de las obras (status, dirección, el valor total de la obra, fecha de inicio, etc). Además utilizamos una base de datos que contenía todos lo estados de Venezuela junto con su población y densidad.
+
+Los procesos anteriores se realizaron para crear un conjunto de datos completos y actualizados sobre estas obras. Luego, se llevó a cabo una transformación de los datos para estandarizar la información y hacerla más accesible y comprensible. 
 
 ## Creación de base de datos
-Para la creación de nuestra base de datos utilizamos Mongo DB
+Para la creación de nuestra base de datos utilizamos Mongo DB desde python, para ello efectuamos la conexión al servidor para crear una nueva base de datos vacía a la que llamamos 'obras_inconclusas'.
 
+Posteriormente ejecutamos la string de conexión para ir cargando los diferentes cvs como colecciones en mi base de datos 'obras_inconclusas'. Todo los códigos se encuentran descritos en el jupyter notebook 'Base_datos'
 
 
 ## Conclusión
