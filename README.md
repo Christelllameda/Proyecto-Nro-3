@@ -20,29 +20,31 @@ Este proyecto tiene como objetivo principal la recopilación, limpieza, transfor
     - [obras_transporte](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/data/obras_transporte.csv)
     - [obras_vialidad](https://github.com/Christelllameda/Proyecto-Nro-3/blob/main/data/obras_vialidad.csv)
 - [src](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/src)
-    - [jupyter](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/src/jupyter)
-        - [Limpieza de]
-        - [Creación b]()
-        - [Querys]
+    - [procesos]
+- [jupyter](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/src/jupyter)
+        - [Base_datos]
+        - [Estados_Vzla]()
+        - [Obras_transporte]
+        - [Obras_vialidad]
 - [imagen](https://github.com/Christelllameda/Proyecto-Nro-3/tree/main/imagen)
+- [html]
 
 
 ## Objetivos
 El propósito final de este proyecto es proporcionar a los ciudadanos, funcionarios gubernamentales y la sociedad civil una herramienta valiosa para el monitoreo y la toma de decisiones informadas en relación con las obras públicas en Venezuela. Al aumentar la transparencia y visibilidad de estas obras, se busca contribuir a la mejora de la gestión de proyectos de infraestructura y, en última instancia, al desarrollo sostenible del país.
 Para ello necesitaremos:
 
-Determinar las obras públicas inconclusas en los sectores de transporte y vialidad.
-
-Localizar 
+Identificar las obras públicas inconclusas en los sectores de transporte y vialidad.
 
 Definir el valor total de las obras públicas inconclusas.
 
 ## Extracción y limpieza de datos
-Para el proceso de ETL nos basamos en la extracción de datos de múltiples fuentes,a través del web scraping (selenium), bases de datos públicas y sitios web de transparencia. 
+Para el proceso de ETL nos basamos en la extracción de datos de múltiples fuentes, a través del web scraping (selenium), base de datos pública y sitios web de transparencia. 
+
 Utilizamos para crear un conjunto de datos completo y actualizado sobre estas obras. Luego, se llevó a cabo una transformación de los datos para estandarizar la información y hacerla más accesible y comprensible. 
 
 ## Creación de base de datos
-
+Para la creación de nuestra base de datos utilizamos Mongo DB
 
 
 
@@ -51,7 +53,7 @@ El proyecto de Extracción, Transformación y Carga (ETL) sobre obras públicas 
 
 ## Links & Recursos
 - https://pandas.pydata.org/
-- (https://docs.python.org/3/library/functions.html)
-- (https://geopy.readthedocs.io/en/latest/)
-- (https://selenium-python.readthedocs.io/)
-- (https://docs.kepler.gl/docs/user-guides)
+- https://docs.python.org/3/library/functions.html
+- https://geopy.readthedocs.io/en/latest/
+- https://selenium-python.readthedocs.io/
+- https://docs.kepler.gl/docs/user-guides
